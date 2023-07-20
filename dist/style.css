@@ -1,10 +1,10 @@
 h1 {
-	color: linear-gradient(#ff6505, #0003a4, #92f400);;
+	color: #ff6505;
 }
 
 .morning {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	color: #ff6505;
+	background-color: #ff6505;
 }
