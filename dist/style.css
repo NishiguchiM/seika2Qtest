@@ -8,3 +8,20 @@ h1 {
 	border-radius: 50%;
 	background-color: #ff6505;
 }
+
+.night {
+	padding-left: 200px;
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+
+.night::after {
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	box-shadow: -26px 0px 0px 20px #ffd700;
+	transform: rotate(-24deg);
+}
